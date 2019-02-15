@@ -57,17 +57,17 @@
     </nav>
 
     <section class="hero">
-    	<div class="columns is-vcentered">
+    	<div class="columns">
 			<div class="column" class="columna-1">
 			    <figure class="image">
 					<img src="/wp-content/themes/hotdrink-official-theme/assets/red-logo.png">
 			    </figure>
 			</div>
 			<div class="column" class="columna-2">
-			    <div class="container contenedor-1">
+			    <div class="container contenedor-1 is-vcentered">
 					<a class="button is-primary is-outlined is-medium">¿Quienes somos?</a>
 				</div>
-				<div class="container contenedor-2">
+				<div class="container contenedor-2 is-vcentered">
 					<a class="button is-primary is-outlined is-medium">Contacto</a>
 				</div>
 			</div> 
@@ -92,15 +92,15 @@
                             <div class="media">
                                 <div class="media-content">
                                     <p class="title is-4">Keork Arnim</p>
-                                    <p class="subtitle is-6">@keorkarnim</p>
+                                    <p class="subtitle is-6">Chief Executive Officer</p>
                                 </div>
                             </div>
 
                             <div class="content">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                                <a>@bulmaio</a>.
-                                <a href="#">#css</a>
-                                <a href="#">#responsive</a>
+                                <a>@heyarnim</a>.
+                                <a href="#">#leadership</a>
+                                <a href="#">#games</a>
                             </div>
                         </div>
                     </div>
@@ -116,15 +116,15 @@
                             <div class="media">
                                 <div class="media-content">
                                     <p class="title is-4">Omar Rojas</p>
-                                    <p class="subtitle is-6">@nudoools</p>
+                                    <p class="subtitle is-6">Chief Technical Officer</p>
                                 </div>
                             </div>
 
                             <div class="content">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                                <a>@bulmaio</a>.
-                                <a href="#">#css</a>
-                                <a href="#">#responsive</a>
+                                <a>@nudoools</a>.
+                                <a href="#">#tech</a>
+                                <a href="#">#music</a>
                             </div>
                         </div>
                     </div>
@@ -140,15 +140,15 @@
                             <div class="media">
                                 <div class="media-content">
                                     <p class="title is-4">Alo Álvarez</p>
-                                    <p class="subtitle is-6">@aloptico</p>
+                                    <p class="subtitle is-6">Writing Director</p>
                                 </div>
                             </div>
 
                             <div class="content">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                                <a>@bulmaio</a>.
-                                <a href="#">#css</a>
-                                <a href="#">#responsive</a>
+                                <a>@aloptico</a>.
+                                <a href="#">#writing</a>
+                                <a href="#">#games</a>
                             </div>
                         </div>
                     </div>
