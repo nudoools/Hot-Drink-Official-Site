@@ -1,23 +1,23 @@
 <?php get_header();?>
 
-<nav class="navbar is-black">
+<nav class="navbar is-fixed-top is-black">
         <div class="navbar-brand">
             <a class="navbar-item" href="https://hotdrink.co">
-                <img src="/wp-content/themes/hotdrink-official-theme/assets/black-logo.png" alt="Our cute Hot Drink logo" style="height: 60px">
+                <img src="/wp-content/themes/hotdrink-official-theme/assets/white-logo.png" alt="Our cute Hot Drink logo" width="50" height="5em">
             </a>
-            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
         </div>
 
         <div id="navbarExampleTransparentExample" class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item" href="https://bulma.io/">
+                <a class="navbar-item" href="https://hotdrink.io/">
                     Home
                 </a>
-                <a class="navbar-item" href="https://bulma.io/">
+                <a class="navbar-item" href="https://bulma.io/frontpage.html#">
                     Equipo
                 </a>
                 <a class="navbar-item" href="https://bulma.io/">
@@ -59,23 +59,21 @@
     <section class="hero">
     	<div class="columns">
 			<div class="column" class="columna-1">
-			    <figure class="image">
-					<img src="/wp-content/themes/hotdrink-official-theme/assets/red-logo.png">
-			    </figure>
+				<img src="/wp-content/themes/hotdrink-official-theme/assets/red-logo.png" alt="Our cute Hot Drink logo but in red" >
 			</div>
 			<div class="column" class="columna-2">
-			    <div class="container contenedor-1 is-vcentered">
-					<a class="button is-primary is-outlined is-medium">¿Quienes somos?</a>
+			    <div class="container contenedor-1 has-text-centered">
+					<a class="button is-primary is-outlined is-large">¿Quienes somos?</a>
 				</div>
-				<div class="container contenedor-2 is-vcentered">
-					<a class="button is-primary is-outlined is-medium">Contacto</a>
+				<div class="container contenedor-2 has-text-centered">
+					<a class="button is-primary is-outlined is-large">Contacto</a>
 				</div>
 			</div> 
     </section>
 
     <section class="section">
         <div class="container has-text-centered">
-            <h2 class="title has-text-black">Nuestro equipo</h2>
+            <h2 class="title has-text-black" ">Nuestro equipo</h2>
             	<p class="has-text-white"> Hot Drink es una plataforma de entretenimiento enfocada en Música, Juegos, Películas y Series. Basado en videos de YouTube y un seguimiento en las redes sociales. </p>
             <br/>
             	<p class="has-text-light"> Se afirma que el proyecto se convertirá en un lugar cálido para hablar y aprender sobre las cosas que amas dentro del mundo del entretenimiento con un enfoque más positivo, apolítico y amistoso.</p>
@@ -166,10 +164,10 @@
                 <div class="tile is-parent">
                     <article class="tile is-child box">
                         <figure class="image">
-                            <img src="https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+                            <img src="/wp-content/themes/hotdrink-official-theme/assets/cofradia.jpg">
                         </figure>
                         <br/>
-                        <p class="title">Ciudad de México</p>
+                        <p class="title">Cofradía, Coffee Co. Ciudad de México</p>
                         <p class="subtitle">Sáb 16 Febero 2019</p>
                         <a class="button">Más información</a>
                     </article>
@@ -208,7 +206,7 @@
                     <div class="field-body">
                         <div class="field">
                             <div class="control">
-                                <textarea class="textarea has-text-grey" placeholder="¡Escríbenos!"></textarea>
+                                <textarea class="textarea has-text-black" placeholder="¡Escríbenos!"></textarea>
                             </div>
                         </div>
                     </div>
@@ -218,7 +216,7 @@
                     <div class="field-body">
                         <div class="field">
                             <div class="control">
-                                <button class="button is-primary">
+                                <button class="button is-primary is-focused">
                                     Mandar mensaje
                                 </button>
                             </div>
